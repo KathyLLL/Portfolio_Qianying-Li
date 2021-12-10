@@ -7,14 +7,46 @@
 
 body {
     font-family: 'Roboto', monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+main{
+    flex: 1;
+}
 .title {
     margin: 25px 0px 0px 0px;
     line-height: 1.5;
     text-align: center;
     opacity: 0;
     animation: fadein 0.7s ease-in-out 0.5s forwards;
+}
+
+/* Skip to content */
+
+a.skip-to-content{
+    background: white;
+    left: 0;
+    padding: 6px;
+    color:black;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 0.5s ease-out;
+    transition: top 0.5s ease-out;
+    z-index: 1;
+}
+
+a.skip-to-content:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
+  
+*:focus{
+    border: 2px solid black;
 }
 /*about me*/
 #about .section-title {
