@@ -634,7 +634,13 @@ nav {
 
 
 }
-
+@media (prefers-reduced-motion: reduce) {
+    .typewriter,
+    .nav-links,
+    .burger{
+        animation: none;
+    }
+}
 .footer {
     position: absolute;
     width: 100%;
