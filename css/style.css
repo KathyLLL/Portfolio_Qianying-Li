@@ -636,9 +636,9 @@ nav {
 }
 
 .footer {
-    position: absolute; /*相对于父元素contanier定位*/
+    position: absolute;
     width: 100%;
-    bottom: 0;/*始终距离它的父元素的底部为0px.则是处于父元素的最底*/
+    bottom: 0;
 }
 
 .footer{
