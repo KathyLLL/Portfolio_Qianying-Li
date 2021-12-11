@@ -515,11 +515,11 @@ nav {
     font-size: 15px;
 }
 
-.click {
+.five {
     display: none;
 }
 
-.click div {
+.five div {
     width: 25px;
     height: 3px;
     background-color: rgb(226, 226, 226);
