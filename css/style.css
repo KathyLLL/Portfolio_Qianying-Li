@@ -526,15 +526,15 @@ nav {
     margin: 5px;
     transition: all 0.3s ease;
 }
-
-@media screen and (max-width: 1024px) {
+/*desktop*/
+@media screen and (min-width: 1024px) {
     /*Naviagation Bar CSS*/
     .nav-links {
         width: 50%;
     }
 }
-
-@media screen and (max-width: 767px) {
+/*tablet*/
+@media screen and (min-width: 750px) {
     /*Resume CSS*/
     .doc {
         height: 500px;
@@ -634,7 +634,13 @@ nav {
 
 
 }
-
+@media (prefers-reduced-motion: reduce) {
+    .typewriter,
+    .nav-links,
+    .burger{
+        animation: none;
+    }
+}
 .footer {
     position: absolute;
     width: 100%;
