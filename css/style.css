@@ -527,14 +527,14 @@ nav {
     transition: all 0.3s ease;
 }
 /*desktop*/
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 767px) {
     /*Naviagation Bar CSS*/
     .nav-links {
         width: 50%;
     }
 }
 /*tablet*/
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
     /*Resume CSS*/
     .doc {
         height: 500px;
