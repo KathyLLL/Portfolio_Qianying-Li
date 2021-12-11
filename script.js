@@ -1,14 +1,14 @@
 function navSlide() {
-    const burger = document.querySelector(".burger");
+    const five = document.querySelector(".five");
     const nav = document.querySelector(".nav-links");
     const navLinks = document.querySelectorAll(".nav-links li");
     
-    burger.addEventListener("click", () => {
+    five.addEventListener("click", () => {
         //Toggle Nav
         nav.classList.toggle("nav-active");
         
-        //Burger Animation
-        burger.classList.toggle("toggle");
+        // Animation
+        five.classList.toggle("toggle");
     });
     
 }
