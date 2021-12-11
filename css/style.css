@@ -357,7 +357,7 @@ a.skip-to-content:focus{
     border-color: #556892;
   }
 /*Landing Page CSS*/
-header {
+index {
     height: 90vh;
     flex-direction: column;
     justify-content: center;
@@ -369,18 +369,18 @@ header {
     animation: fadein 0.7s ease-in-out 0.5s forwards;
 }
 
-header p{
+index p{
     margin: 50px 0px;
     font-weight: bold;
     font-size: 20px;
     width: 100%;
 }
 
-header h1{
+index h1{
     font-size: 64px;
 }
 
-header img{
+index img{
     position: absolute;
     height: 600px;
     top: 25%;
