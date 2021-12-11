@@ -515,11 +515,11 @@ nav {
     font-size: 15px;
 }
 
-.five {
+.burger {
     display: none;
 }
 
-.five div {
+.burger div {
     width: 25px;
     height: 3px;
     background-color: rgb(226, 226, 226);
@@ -568,7 +568,7 @@ nav {
     .nav-links a {
         font-size: 20px;
     }
-    .five {
+    .burger {
         display: block;
         cursor: pointer;
     }
